@@ -1,0 +1,10 @@
+# These binaries do not run on the host, so these rules don't apply.
+linux-firmware: arch-independent-package-contains-binary-or-object *lib/firmware/*
+linux-firmware: binary-with-bad-dynamic-table lib/firmware/qcom/apq8096/modem.mbn
+# linux-firmware: elf-error *lib/firmware/*
+linux-firmware: program-not-linked-against-libc *lib/firmware/*
+linux-firmware: statically-linked-binary *lib/firmware/*
+linux-firmware: undeclared-elf-prerequisites *lib/firmware/*
+linux-firmware: unstripped-binary-or-object *lib/firmware/*
+
+linux-firmware: windows-devel-file-in-package lib/firmware/korg/k1212.dsp
