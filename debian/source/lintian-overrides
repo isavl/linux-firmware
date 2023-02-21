@@ -10,3 +10,5 @@ linux-firmware source: binary-arch-rules-but-pkg-is-arch-indep
 # linux-firmware source: elf-error .*
 
 linux-firmware source: source-contains-prebuilt-windows-binary qed/qed_init_values-8.10.9.0.bin
+
+linux-firmware source: binary-with-bad-dynamic-table [qcom/apq8096/modem.mbn]

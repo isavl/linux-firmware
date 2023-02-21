@@ -1,3 +1,9 @@
+linux-firmware (20230210-1) unstable; urgency=medium
+
+  * Upstream release 20230210
+
+ -- Igor Savlook <isav@alzari.pw>  Tue, 21 Feb 2023 12:25:44 +0300
+
 linux-firmware (20220509-1) unstable; urgency=medium
 
   * Upstream release 20220509
